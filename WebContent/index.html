@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+<link rel="stylesheet" href="./css/index.css" type="text/css" />
+</head>
+<body>
+	<div class="panel">
+		<div class="list">
+			<a href="biblio/ListeDesAuteurs">
+				<div class="item">
+					liste des Auteurs
+				</div>
+			</a>
+			<div class="item">
+				Livres par mot clé <br /><br />
+				<form method="GET" action="biblio/SearchBook">
+					Search : <input type="text" name="key" id="search" placeholder="Mot clé"/>
+					<button class="btn">submit</button>
+				</form>
+			</div>
+			<a href="biblio/SelectAuthor">
+				<div class="item">
+					Liste des livres écrite par un auteur donné
+				</div>
+			</a>
+			<a href="biblio/SelectPublisher">
+				<div class="item">
+					Liste des livres publié par un éditeur donné
+				</div>
+			</a>
+			<a href="biblio/SelectPublisher2">
+				<div class="item">
+					Liste des auteurs qui ont écrit des livres publiés par un éditeur donné
+				</div>
+			</a>
+			<div class="item">
+				Liste des éditeurs ayant publiés des livres qui ont d'une thematique donnée <br /><br />
+				<form method="GET" action="biblio/PublishersByTheme">
+					Search : <input type="text" name="theme" id="search" placeholder="Thématique"/>
+					<button class="btn">submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

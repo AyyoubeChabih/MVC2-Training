@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FEFAD4;
+}
+
+.panel {
+    width: 70%;
+    min-height: 200px;
+    background-color: #765D69;
+    margin: 100px auto 0 auto;
+    padding: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: consolas;
+    border-radius: 20px;
+}
+
+.panel > .list > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.item:hover {
+    background-color: #FCD0BA;
+    color: #765D69;
+}
+
+.item {
+    padding: 15px;
+    background-color: #8FB9A8;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.item > form > input {
+    padding: 7px;
+    width: 300px;
+    border: gray;
+    border-radius: 20px;
+    font: inherit;
+    padding-left: 20px;
+}
+
+.btn {
+    padding: 7px;
+    width: 100px;
+    border: gray;
+    border-radius: 20px;
+    font: inherit;
+    cursor: pointer;
+    background-color: #F1828D;
+    color: #FEFAD4;
+}
+
+.btn:hover {
+    background-color: #FEFAD4;
+    color: #765D69;
+    box-shadow: 2px 2px 5px gray;
+}

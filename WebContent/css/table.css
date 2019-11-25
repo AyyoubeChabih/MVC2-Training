@@ -1,0 +1,28 @@
+body {
+    background-color: #765D69;
+}
+
+.panel {
+    margin-top: 20px;
+    background-color: #FEFAD4;
+}
+
+.panel > header {
+    padding: 10px;
+    background-color: #F1828D;
+    text-align: center;
+}
+
+th {
+    background-color: #8FB9A8;
+    padding: 15px;
+}
+
+td {
+    color: #765D69;
+    padding: 15px;
+}
+
+table {
+    text-align: center;
+}

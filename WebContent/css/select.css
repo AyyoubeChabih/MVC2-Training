@@ -1,0 +1,32 @@
+body {
+    background-color: #765D69;
+}
+
+.panel {
+    margin-top: 20px;
+    background-color: #FEFAD4;
+}
+
+.panel > header {
+    padding: 10px;
+    background-color: #F1828D;
+    text-align: center;
+}
+
+.panel > section {
+    margin-top: 10px;
+}
+
+select {
+    padding: 10px;
+}
+
+.btn {
+    background-color: #8FB9A8;
+    color: #fff;
+    width: 120px;
+}
+
+.btn:hover {
+    background-color: #F1828D;
+}
